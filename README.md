@@ -19,17 +19,8 @@ sudo apt-get update
 
 ### نصب پکیج‌های DSE
 ```bash
-sudo apt-get install \
-    dse=6.0.2-1 \
-    dse-full=6.0.2-1 \
-    dse-libcassandra=6.0.2-1 \
-    dse-libgraph=6.0.2-1 \
-    dse-libhadoop-native-client=2 \
-    dse-libhadoop-client=2 \
-    dse-liblog4j=4 \
-    dse-libsolr=6.0.2-1 \
-    dse-libspark=6.0.2-1 \
-    dse-libtomcat=6.0.2-1
+sudo apt-get install dse=6.0.2-1     dse-full=6.0.2-1     dse-libcassandra=6.0.2-1     dse-libgraph=6.0.2-1     dse-libhadoop2-client-native=6.0.2-1     dse-libhadoop2-client=6.0.2-1     dse-liblog4j=6.0.2-1     dse-libsolr=6.0.2-1     dse-libspark=6.0.2-1     dse-libtomcat=6.0.2-1
+
 ```
 
 ## پیکربندی نودهای جدید
